@@ -1,0 +1,30 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(../../api-template/img/waifu-wallpaper.png);
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h2, h3{
+text-align: center;
+color: magenta;
+font-size: 38px;
+
+}
