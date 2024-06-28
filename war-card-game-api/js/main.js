@@ -47,7 +47,7 @@ function drawTwo(){
       .then(data => {
        
         console.log(data)
-      !localStorage.getItem('deckOfCards')
+      localStorage.getItem('deckOfCards')
 
         document.querySelector('#playerOne').src = data.cards[0].image
         document.querySelector('#playerTwo').src = data.cards[1].image
