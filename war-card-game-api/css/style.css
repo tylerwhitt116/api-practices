@@ -1,0 +1,27 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body{
+background-image: url(../img/vaporwave-wallpaper_839182-4549.avif);
+background-size:cover;
+background-repeat: no-repeat;
+color: white;
+}
